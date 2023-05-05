@@ -43,6 +43,7 @@ CREATE TABLE IF NOT EXISTS Collection (
 );
 
 CREATE TABLE IF NOT EXISTS SongCollection (
+	Song_id INTEGER REFERENCES Songs(id),
 	Collection_id INTEGER REFERENCES Collection(id),
 	CONSTRAINT pk_SongCollection PRIMARY KEY (Song_id, Collection_id)
 );
