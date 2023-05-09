@@ -52,22 +52,22 @@ INSERT INTO bandalbum values
 (8, 8);
 
 INSERT INTO songs(name, album_id, duration) values
-("Убей их всех", 8, 310),
-("Дорога в никуда", 8, 296),
-("Пепел на ветру", 7, 277),
-("Тату", 7, 202),
-("Bad Blood", 6, 250),
-("All I Want", 6, 225),
-("Have a nice day", 6, 229),
-("Wildflower", 5, 254),
-("LOL", 4, 243),
-("Samurai", 4, 333),
-("Герой асфальта", 3, 314),
-("Улица роз", 3, 357),
-("Killing Is My Business…", 2, 186),
-("Rattlehead", 2, 221),
-("Battery", 1, 186),
-("Orion", 2, 492);
+('Убей их всех', 8, 310),
+('Дорога в никуда', 8, 296),
+('Пепел на ветру', 7, 277),
+('Тату', 7, 202),
+('Bad Blood', 6, 250),
+('All I Want', 6, 225),
+('Have a nice day', 6, 229),
+('Wildflower', 5, 254),
+('LOL', 4, 243),
+('Samurai', 4, 333),
+('Герой асфальта', 3, 314),
+('Улица роз', 3, 357),
+('Killing Is My Business…', 2, 186),
+('Rattlehead', 2, 221),
+('Battery', 1, 186),
+('Orion', 2, 492);
 
 INSERT INTO collection(name, year_of) values
 ('Heavy metal', 2018),
